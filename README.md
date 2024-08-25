@@ -1,1 +1,1 @@
-# Ontology-and-Intel-Analysis-Fall-2024
+# Ontology and Intel Analysis Fall 2024
