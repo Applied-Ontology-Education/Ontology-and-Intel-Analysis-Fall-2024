@@ -1,5 +1,16 @@
 # Ontology and Intel Analysis Fall 2024
 
+## Slack
+
+https://ncorlabswg.slack.com/archives/C07K47KNZGQ
+
+## Repository Content
+This repository contains the following directories: 
+
+* **design-patterns** - Directory to hold vetted design patterns to be made publicly available for the community.
+* **presentations** - Slides for presentations given by participants in the course. 
+* **readings** - Required readings for the course broken out into each week.
+
 This course integrates foundational principles of ontology engineering with contemporary research in intelligence analysis. To that end, we explore ontological dimensions that inform intelligence methodologies, addressing fundamental questions related to knowledge, truth, ethics, and decision-making within this domain.
 
 The curriculum anchors theoretical concepts in practical intelligence contexts, transforming abstract ideas into actionable tools for analyzing and enhancing intelligence operations. Students will engage critically with a diverse array of topics, including the implications of digital warfare, the nature of cybersecurity in the global sphere, the ontology of terrorism, and the ethical considerations of artificial intelligence in espionage.
