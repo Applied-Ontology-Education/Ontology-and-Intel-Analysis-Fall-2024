@@ -1,5 +1,52 @@
 # Ontology and Intel Analysis Fall 2024
 
+## Lectures
+
+* **Week 1**
+  - [Foundations Part 1](https://www.youtube.com/watch?v=1jILnhznzK4)
+  - Design Patterns 101
+  - Foundations Part 2
+* **Week 2**
+  - Top-Down Ontology Engineering
+  - Design Patterns 102
+  - Top-Down Intelligence Analysis
+* **Week 3**
+  - Information and Aboutness
+  - Documents, Authority, and Social Acts
+* **Week 4**
+  - Cognitive Bias in Intelligence Analysis Part 1
+  - Cognitive Bias in Intelligence Analysis Part 2
+* **Week 5**
+  - Cognitive Bias in Intelligence Analysis Part 3
+  - Cognitive Bias in Intelligence Analysis Part 4
+* **Week 6**
+  - Command and Control
+  - Joint Doctrine Ontology 
+* **Week 7**
+  - [ONTOBRAS](https://www.inf.ufrgs.br/ontobras/en/17th-seminar-on-ontology-research-in-brazil-ontobras-2024/)
+* **Week 8**
+  - Military Intelligence Ontologies
+  - Complexity of Military Intelligence
+* **Week 9**
+  - [STIDS 2024](https://kadsci.com/stids2024/)
+* **Week 10**
+  - Cybersecurity Ontologies
+  - ATT&CK & D3FEND
+* **Week 11**
+  - Semantic Stack Vulnerabilities
+  - RDF Exploits
+* **Week 12**
+  - Terror as the Order of the Day
+  - Analyzing Internal Threats
+* **Week 13**
+  - Lies, Deception, and Bullshit
+  - Ontology of Secrets
+* **Week 14**
+  - Thanksgiving
+* **Week 15**
+  - Logic of Secrets
+  - A Commonsense Theory of Secrets
+
 ## Slack
 
 https://ncorlabswg.slack.com/archives/C07K47KNZGQ
