@@ -4,7 +4,7 @@
 
 * **Week 1**
   - [Foundations Part 1](https://www.youtube.com/watch?v=1jILnhznzK4)
-  - Design Patterns 101
+  - [Design Patterns 101](https://www.youtube.com/watch?v=bQTEaKhhC8Y)
   - Foundations Part 2
 * **Week 2**
   - Top-Down Ontology Engineering
