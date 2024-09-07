@@ -7,9 +7,9 @@
   - [Design Patterns 101](https://www.youtube.com/watch?v=bQTEaKhhC8Y)
   - [Foundations Part 2](https://www.youtube.com/watch?v=Eorc2s8O4QA&list=PLDpLIEgKNGbMyC42zLl3_c--2CifBz_bu&index=3)
 * **Week 2**
-  - Top-Down Ontology Engineering
+  - [Top-Down Ontology Engineering Part 1](https://www.youtube.com/watch?v=7N8oST-pjyE)
   - Design Patterns 102
-  - Top-Down Intelligence Analysis
+  - Top-Down Intelligence Analysis Part 2
 * **Week 3**
   - Information and Aboutness
   - Documents, Authority, and Social Acts
