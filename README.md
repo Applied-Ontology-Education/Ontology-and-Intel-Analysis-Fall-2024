@@ -9,10 +9,8 @@
 * **Week 2**
   - [Top-Down Ontology Engineering Part 1](https://www.youtube.com/watch?v=7N8oST-pjyE)
   - [Design Patterns 102](https://www.youtube.com/watch?v=dyXC4cMK7-I)
-  - Top-Down Intelligence Analysis Part 2
 * **Week 3**
-  - Information and Aboutness
-  - Documents, Authority, and Social Acts
+  - [Top-Down Intelligence Analysis Part 2](https://www.youtube.com/watch?v=BRb3ffIvHvE)
 * **Week 4**
   - Cognitive Bias in Intelligence Analysis Part 1
   - Cognitive Bias in Intelligence Analysis Part 2
