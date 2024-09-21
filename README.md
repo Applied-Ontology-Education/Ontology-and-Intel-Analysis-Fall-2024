@@ -13,37 +13,37 @@
   - [Top-Down Intelligence Analysis Part 2](https://www.youtube.com/watch?v=BRb3ffIvHvE)
 * **Week 4**
   - [Bottom-Up Intelligence Analysis Part 1](https://www.youtube.com/watch?v=Oeq2HCQQChI&list=PLDpLIEgKNGbMyC42zLl3_c--2CifBz_bu&index=7)
-  - Cognitive Bias in Intelligence Analysis Part 2
+  - Design Patterns: Practice, Practice, Practice
 * **Week 5**
   - Bottom-Up Intelligence Analysis Part 2
-  - Cognitive Bias in Intelligence Analysis Part 4
+  - Design Patterns: Practice, Practice, Practice
 * **Week 6**
-  - Command and Control
-  - Joint Doctrine Ontology 
+  - Joint Doctrine Ontology
+  - Design Patterns: Practice, Practice, Practice 
 * **Week 7**
   - [ONTOBRAS](https://www.inf.ufrgs.br/ontobras/en/17th-seminar-on-ontology-research-in-brazil-ontobras-2024/)
 * **Week 8**
   - Military Intelligence Ontologies
-  - Complexity of Military Intelligence
+  - Design Patterns: Practice, Practice, Practice
 * **Week 9**
   - [STIDS 2024](https://kadsci.com/stids2024/)
 * **Week 10**
   - Cybersecurity Ontologies
-  - ATT&CK & D3FEND
+  - Design Patterns: Practice, Practice, Practice
 * **Week 11**
   - Semantic Stack Vulnerabilities
-  - RDF Exploits
+  - Design Patterns: Practice, Practice, Practice
 * **Week 12**
   - Terror as the Order of the Day
-  - Analyzing Internal Threats
+  - Design Patterns: Practice, Practice, Practice
 * **Week 13**
-  - Lies, Deception, and Bullshit
   - Ontology of Secrets
+  - Design Patterns: Practice, Practice, Practice
 * **Week 14**
   - Thanksgiving
 * **Week 15**
   - Logic of Secrets
-  - A Commonsense Theory of Secrets
+  - Design Patterns: Practice, Practice, Practice
 
 ## Slack
 
