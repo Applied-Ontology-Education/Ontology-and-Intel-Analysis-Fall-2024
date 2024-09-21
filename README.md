@@ -12,10 +12,10 @@
 * **Week 3**
   - [Top-Down Intelligence Analysis Part 2](https://www.youtube.com/watch?v=BRb3ffIvHvE)
 * **Week 4**
-  - Cognitive Bias in Intelligence Analysis Part 1
+  - [Bottom-Up Intelligence Analysis Part 1](https://www.youtube.com/watch?v=Oeq2HCQQChI&list=PLDpLIEgKNGbMyC42zLl3_c--2CifBz_bu&index=7)
   - Cognitive Bias in Intelligence Analysis Part 2
 * **Week 5**
-  - Cognitive Bias in Intelligence Analysis Part 3
+  - Bottom-Up Intelligence Analysis Part 2
   - Cognitive Bias in Intelligence Analysis Part 4
 * **Week 6**
   - Command and Control
