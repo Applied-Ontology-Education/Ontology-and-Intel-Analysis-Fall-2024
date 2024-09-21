@@ -45,6 +45,10 @@
   - Logic of Secrets
   - Design Patterns: Practice, Practice, Practice
 
+## Extra Content
+  - [Leaves on a Stream](https://www.youtube.com/watch?v=t0cliLzDjoc&list=PLDpLIEgKNGbMHCPdRvBHhJnLzigvuNvc2)
+  - [Loving Kindness](https://www.youtube.com/watch?v=b6YrzjC2nb4&list=PLDpLIEgKNGbMHCPdRvBHhJnLzigvuNvc2&index=2)
+
 ## Slack
 
 https://ncorlabswg.slack.com/archives/C07K47KNZGQ
