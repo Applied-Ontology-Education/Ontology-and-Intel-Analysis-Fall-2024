@@ -13,9 +13,9 @@
   - [Top-Down Intelligence Analysis Part 2](https://www.youtube.com/watch?v=BRb3ffIvHvE)
 * **Week 4**
   - [Bottom-Up Intelligence Analysis Part 1](https://www.youtube.com/watch?v=Oeq2HCQQChI&list=PLDpLIEgKNGbMyC42zLl3_c--2CifBz_bu&index=7)
-  - Design Patterns: Practice, Practice, Practice
+  - [Design Patterns: Practice, Practice, Practice](https://www.youtube.com/watch?v=Jm9Vvhm38n8)
 * **Week 5**
-  - Bottom-Up Intelligence Analysis Part 2
+  - [Bottom-Up Intelligence Analysis Part 2](https://www.youtube.com/watch?v=BEJknepKICI)
   - Design Patterns: Practice, Practice, Practice
 * **Week 6**
   - Joint Doctrine Ontology
