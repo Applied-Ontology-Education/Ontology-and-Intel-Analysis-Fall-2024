@@ -1,0 +1,337 @@
+@prefix : <http://www.buffalo.edu/oms-dico/ontologies/2024/9/intel-gap-1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.buffalo.edu/oms-dico/ontologies/2024/9/intel-gap-1/> .
+
+<http://www.buffalo.edu/oms-dico/ontologies/2024/9/intel-gap-1/> rdf:type owl:Ontology ;
+                                                                  owl:imports <http://purl.obolibrary.org/obo/TEMP> ,
+                                                                              <http://www.ontologyrepository.com/CommonCoreOntologies/Mid/2023-04-07/MergedAllCoreOntology> .
+
+#################################################################
+#    Classes
+#################################################################
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000019
+<https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000019> rdf:type owl:Class ;
+                                                                       rdfs:subClassOf <http://www.ontologyrepository.com/CommonCoreOntologies/ActOfIntelligenceGathering> ;
+                                                                       rdfs:label "Act of SIGINT Collection"@en .
+
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000020
+<https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000020> rdf:type owl:Class ;
+                                                                       rdfs:subClassOf <http://www.ontologyrepository.com/CommonCoreOntologies/ActOfIntelligenceGathering> ;
+                                                                       rdfs:label "Act of IMINT Collection"@en .
+
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000021
+<https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000021> rdf:type owl:Class ;
+                                                                       rdfs:subClassOf <http://www.ontologyrepository.com/CommonCoreOntologies/IntentionalAct> ;
+                                                                       rdfs:label "Act of Information Dissemination"@en .
+
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000022
+<https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000022> rdf:type owl:Class ;
+                                                                       rdfs:subClassOf <http://www.ontologyrepository.com/CommonCoreOntologies/IntentionalAct> ;
+                                                                       rdfs:label "Act of Information Probing"@en .
+
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000023
+<https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000023> rdf:type owl:Class ;
+                                                                       rdfs:subClassOf <http://www.ontologyrepository.com/CommonCoreOntologies/IncreaseOfGenericallyDependentContinuant> ;
+                                                                       <http://www.ontologyrepository.com/CommonCoreOntologies/definition> "The process resulting from probing systems for relevant information where a set of information with a high likelihood of being relevant to the problem set is returned."@en ;
+                                                                       rdfs:label "Increase of Substantially Relevant Information"@en .
+
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000024
+<https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000024> rdf:type owl:Class ;
+                                                                       rdfs:subClassOf <http://www.ontologyrepository.com/CommonCoreOntologies/GainOfGenericallyDependentContinuant> ;
+                                                                       rdfs:label "Gain of Crtical Information"@en .
+
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000025
+<https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000025> rdf:type owl:Class ;
+                                                                       rdfs:subClassOf <http://www.ontologyrepository.com/CommonCoreOntologies/IntentionalAct> ;
+                                                                       rdfs:label "Act of Information Scrutinization"@en .
+
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000026
+<https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000026> rdf:type owl:Class ;
+                                                                       rdfs:subClassOf <http://www.ontologyrepository.com/CommonCoreOntologies/DirectiveInformationContentEntity> ,
+                                                                                       [ rdf:type owl:Restriction ;
+                                                                                         owl:onProperty <http://www.ontologyrepository.com/CommonCoreOntologies/prescribes> ;
+                                                                                         owl:someValuesFrom <https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000021>
+                                                                                       ] ;
+                                                                       rdfs:isDefinedBy "https://www.odni.gov/files/documents/ICD/ICD-710.pdf"@en ;
+                                                                       rdfs:label "Access Control Marking"@en .
+
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000027
+<https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000027> rdf:type owl:Class ;
+                                                                       owl:equivalentClass [ owl:intersectionOf ( <http://www.ontologyrepository.com/CommonCoreOntologies/Agent>
+                                                                                                                  [ owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                                                                                                                                           owl:onProperty <http://www.ontologyrepository.com/CommonCoreOntologies/has_capability> ;
+                                                                                                                                           owl:someValuesFrom <https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000029>
+                                                                                                                                         ]
+                                                                                                                                         [ rdf:type owl:Restriction ;
+                                                                                                                                           owl:onProperty <http://www.ontologyrepository.com/CommonCoreOntologies/has_capability> ;
+                                                                                                                                           owl:someValuesFrom <https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000039>
+                                                                                                                                         ]
+                                                                                                                                       ) ;
+                                                                                                                    rdf:type owl:Class
+                                                                                                                  ]
+                                                                                                                  [ rdf:type owl:Restriction ;
+                                                                                                                    owl:onProperty <http://purl.obolibrary.org/obo/RO_0000087> ;
+                                                                                                                    owl:someValuesFrom <https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000028>
+                                                                                                                  ]
+                                                                                                                ) ;
+                                                                                             rdf:type owl:Class
+                                                                                           ] ;
+                                                                       rdfs:subClassOf <http://www.ontologyrepository.com/CommonCoreOntologies/Agent> ;
+                                                                       rdfs:label "Intelligence Analyst"@en .
+
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000028
+<https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000028> rdf:type owl:Class ;
+                                                                       rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000023> ;
+                                                                       rdfs:label "Analysis Role"@en .
+
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000029
+<https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000029> rdf:type owl:Class ;
+                                                                       rdfs:subClassOf <http://www.ontologyrepository.com/CommonCoreOntologies/Skill> ;
+                                                                       rdfs:label "Data Analysis Skill"@en .
+
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000030
+<https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000030> rdf:type owl:Class ;
+                                                                       rdfs:subClassOf <http://www.ontologyrepository.com/CommonCoreOntologies/Skill> ;
+                                                                       rdfs:label "Interrogation Skill"@en .
+
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000031
+<https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000031> rdf:type owl:Class ;
+                                                                       rdfs:subClassOf <http://www.ontologyrepository.com/CommonCoreOntologies/Skill> ;
+                                                                       rdfs:label "Data Collection Skill"@en .
+
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000032
+<https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000032> rdf:type owl:Class ;
+                                                                       owl:equivalentClass [ rdf:type owl:Restriction ;
+                                                                                             owl:onProperty <http://www.ontologyrepository.com/CommonCoreOntologies/prescribes> ;
+                                                                                             owl:someValuesFrom <https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000035>
+                                                                                           ] ;
+                                                                       rdfs:subClassOf <http://www.ontologyrepository.com/CommonCoreOntologies/DirectiveInformationContentEntity> ;
+                                                                       <http://www.ontologyrepository.com/CommonCoreOntologies/definition> "Prescribes permissions and remissions for information access for a user or group of users."@en ;
+                                                                       rdfs:label "Zero Trust Access Policy"@en .
+
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000033
+<https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000033> rdf:type owl:Class ;
+                                                                       rdfs:subClassOf [ owl:intersectionOf ( <http://www.ontologyrepository.com/CommonCoreOntologies/Agent>
+                                                                                                              [ owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                                                                                                                                       owl:onProperty <http://www.ontologyrepository.com/CommonCoreOntologies/has_capability> ;
+                                                                                                                                       owl:someValuesFrom <https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000035>
+                                                                                                                                     ]
+                                                                                                                                     [ rdf:type owl:Restriction ;
+                                                                                                                                       owl:onProperty <http://www.ontologyrepository.com/CommonCoreOntologies/has_capability> ;
+                                                                                                                                       owl:someValuesFrom <https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000038>
+                                                                                                                                     ]
+                                                                                                                                   ) ;
+                                                                                                                rdf:type owl:Class
+                                                                                                              ]
+                                                                                                              [ rdf:type owl:Restriction ;
+                                                                                                                owl:onProperty <http://purl.obolibrary.org/obo/RO_0000087> ;
+                                                                                                                owl:someValuesFrom <https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000037>
+                                                                                                              ]
+                                                                                                            ) ;
+                                                                                         rdf:type owl:Class
+                                                                                       ] ;
+                                                                       rdfs:label "Military Operations Agent"@en .
+
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000034
+<https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000034> rdf:type owl:Class ;
+                                                                       rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000023> ;
+                                                                       rdfs:label "Data Inquiry Role"@en .
+
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000035
+<https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000035> rdf:type owl:Class ;
+                                                                       rdfs:subClassOf <http://www.ontologyrepository.com/CommonCoreOntologies/AgentCapability> ;
+                                                                       rdfs:label "Data Access Capability"@en .
+
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000036
+<https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000036> rdf:type owl:Class ;
+                                                                       rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000023> ;
+                                                                       rdfs:label "Military Commander Role"@en .
+
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000037
+<https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000037> rdf:type owl:Class ;
+                                                                       rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000023> ;
+                                                                       rdfs:label "Military Operations Role"@en .
+
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000038
+<https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000038> rdf:type owl:Class ;
+                                                                       rdfs:subClassOf <http://www.ontologyrepository.com/CommonCoreOntologies/AgentCapability> ;
+                                                                       rdfs:label "Kinetic Operations Capability"@en .
+
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000039
+<https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000039> rdf:type owl:Class ;
+                                                                       rdfs:subClassOf <http://www.ontologyrepository.com/CommonCoreOntologies/AgentCapability> ;
+                                                                       rdfs:label "Intelligence Dissemination Capability"@en .
+
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000040
+<https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000040> rdf:type owl:Class ;
+                                                                       rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000034> ;
+                                                                       rdfs:label "Intelligence Collection Function"@en .
+
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000041
+<https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000041> rdf:type owl:Class ;
+                                                                       rdfs:subClassOf <https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000040> ;
+                                                                       rdfs:label "Human Intelligence Collection Function"@en .
+
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000042
+<https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000042> rdf:type owl:Class ;
+                                                                       rdfs:subClassOf <https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000040> ;
+                                                                       rdfs:label "Signals Intelligence Collection Function"@en .
+
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000043
+<https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000043> rdf:type owl:Class ;
+                                                                       rdfs:subClassOf <https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000040> ;
+                                                                       rdfs:label "Imagery Intelligence Collection Function"@en .
+
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000044
+<https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000044> rdf:type owl:Class ;
+                                                                       rdfs:subClassOf <https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000040> ;
+                                                                       rdfs:label "Measurement and Signatures Collection Function"@en .
+
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000045
+<https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000045> rdf:type owl:Class ;
+                                                                       rdfs:subClassOf <https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000040> ;
+                                                                       rdfs:label "Open Source Intelligence Collection Function"@en .
+
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000046
+<https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000046> rdf:type owl:Class ;
+                                                                       rdfs:subClassOf <https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000040> ;
+                                                                       rdfs:label "Geospatial Intelligence Collection Function"@en .
+
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000047
+<https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000047> rdf:type owl:Class ;
+                                                                       rdfs:subClassOf <http://www.ontologyrepository.com/CommonCoreOntologies/ActOfEstimation> ,
+                                                                                       [ rdf:type owl:Restriction ;
+                                                                                         owl:onProperty <http://www.ontologyrepository.com/CommonCoreOntologies/has_output> ;
+                                                                                         owl:someValuesFrom <http://www.ontologyrepository.com/CommonCoreOntologies/MeasurementInformationContentEntity>
+                                                                                       ] ;
+                                                                       rdfs:label "Act of Force Estimation"@en .
+
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000048
+<https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000048> rdf:type owl:Class ;
+                                                                       rdfs:subClassOf <http://www.ontologyrepository.com/CommonCoreOntologies/ProbabilityMeasurementInformationContentEntity> ;
+                                                                       rdfs:label "Confidence Level for Intelligence Assessment"@en .
+
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000049
+<https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000049> rdf:type owl:Class ;
+                                                                       rdfs:subClassOf <http://www.ontologyrepository.com/CommonCoreOntologies/MeasurementInformationContentEntity> ;
+                                                                       rdfs:label "Placement Assessment Measurement Information Content Entity"@en .
+
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000050
+<https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000050> rdf:type owl:Class ;
+                                                                       rdfs:subClassOf <http://www.ontologyrepository.com/CommonCoreOntologies/InformationContentEntity> ;
+                                                                       rdfs:label "Finished Intelligence Information Content Entity"@en .
+
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000051
+<https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000051> rdf:type owl:Class ;
+                                                                       rdfs:subClassOf <http://www.ontologyrepository.com/CommonCoreOntologies/IntentionalAct> ;
+                                                                       rdfs:label "Act of Intelligence Analysis"@en .
+
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000052
+<https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000052> rdf:type owl:Class ;
+                                                                       rdfs:subClassOf <http://www.ontologyrepository.com/CommonCoreOntologies/IntentionalAct> ,
+                                                                                       [ rdf:type owl:Restriction ;
+                                                                                         owl:onProperty <http://www.ontologyrepository.com/CommonCoreOntologies/has_output> ;
+                                                                                         owl:someValuesFrom <https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000050>
+                                                                                       ] ;
+                                                                       rdfs:label "Act of Intelligence Coordination"@en .
+
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000053
+<https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000053> rdf:type owl:Class ;
+                                                                       rdfs:subClassOf [ owl:intersectionOf ( <http://www.ontologyrepository.com/CommonCoreOntologies/IntentionalAct>
+                                                                                                              [ rdf:type owl:Restriction ;
+                                                                                                                owl:onProperty <http://purl.obolibrary.org/obo/BFO_0000055> ;
+                                                                                                                owl:someValuesFrom <https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000040>
+                                                                                                              ]
+                                                                                                            ) ;
+                                                                                         rdf:type owl:Class
+                                                                                       ] ;
+                                                                       rdfs:label "Act of Information Fusion"@en .
+
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000054
+<https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000054> rdf:type owl:Class ;
+                                                                       rdfs:subClassOf <http://www.ontologyrepository.com/CommonCoreOntologies/ArtifactFunction> ;
+                                                                       rdfs:label "Data Collection Function"@en .
+
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000055
+<https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000055> rdf:type owl:Class ;
+                                                                       rdfs:subClassOf [ owl:intersectionOf ( <https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000050>
+                                                                                                              [ rdf:type owl:Restriction ;
+                                                                                                                owl:onProperty <http://www.ontologyrepository.com/CommonCoreOntologies/prescribes> ;
+                                                                                                                owl:someValuesFrom <http://www.ontologyrepository.com/CommonCoreOntologies/ActOfMilitaryForce>
+                                                                                                              ]
+                                                                                                            ) ;
+                                                                                         rdf:type owl:Class
+                                                                                       ] ;
+                                                                       rdfs:label "Effects-Based Target Package"@en .
+
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000056
+<https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000056> rdf:type owl:Class ;
+                                                                       rdfs:subClassOf [ owl:intersectionOf ( <https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000050>
+                                                                                                              [ rdf:type owl:Restriction ;
+                                                                                                                owl:onProperty <http://www.ontologyrepository.com/CommonCoreOntologies/describes> ;
+                                                                                                                owl:someValuesFrom <https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000038>
+                                                                                                              ]
+                                                                                                            ) ;
+                                                                                         rdf:type owl:Class
+                                                                                       ] ;
+                                                                       rdfs:label "Threat Assessment"@en .
+
+
+#################################################################
+#    General axioms
+#################################################################
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( <https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000041>
+                <https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000042>
+                <https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000043>
+                <https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000044>
+                <https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000045>
+                <https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000046>
+              )
+] .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
