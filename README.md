@@ -18,12 +18,12 @@
   - [Bottom-Up Intelligence Analysis Part 2](https://www.youtube.com/watch?v=BEJknepKICI)
   - Design Patterns: Practice, Practice, Practice
 * **Week 6**
-  - Joint Doctrine Ontology
+  - Military Intelligence Part 1
   - Design Patterns: Practice, Practice, Practice 
 * **Week 7**
   - [ONTOBRAS](https://www.inf.ufrgs.br/ontobras/en/17th-seminar-on-ontology-research-in-brazil-ontobras-2024/)
 * **Week 8**
-  - Military Intelligence Ontologies
+  - MMilitary Intelligence Part 2
   - Design Patterns: Practice, Practice, Practice
 * **Week 9**
   - [STIDS 2024](https://kadsci.com/stids2024/)
