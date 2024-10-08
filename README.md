@@ -18,7 +18,7 @@
   - [Bottom-Up Intelligence Analysis Part 2](https://www.youtube.com/watch?v=BEJknepKICI)
   - Design Patterns: Practice, Practice, Practice
 * **Week 6**
-  - Military Intelligence Part 1
+  - [Military Intelligence Part 1](https://www.youtube.com/watch?v=m8Z7jJsHI-s)
   - Design Patterns: Practice, Practice, Practice 
 * **Week 7**
   - [ONTOBRAS](https://www.inf.ufrgs.br/ontobras/en/17th-seminar-on-ontology-research-in-brazil-ontobras-2024/)
