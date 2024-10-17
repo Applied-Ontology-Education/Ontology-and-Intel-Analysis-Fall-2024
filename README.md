@@ -16,15 +16,14 @@
   - [Design Patterns: Practice, Practice, Practice](https://www.youtube.com/watch?v=Jm9Vvhm38n8)
 * **Week 5**
   - [Bottom-Up Intelligence Analysis Part 2](https://www.youtube.com/watch?v=BEJknepKICI)
-  - Design Patterns: Practice, Practice, Practice
+  - [Design Patterns: Practice, Practice, Practice](https://www.youtube.com/watch?v=qfV8e1UpyRk)
 * **Week 6**
   - [Military Intelligence Part 1](https://www.youtube.com/watch?v=m8Z7jJsHI-s)
   - Design Patterns: Practice, Practice, Practice 
 * **Week 7**
   - [ONTOBRAS](https://www.inf.ufrgs.br/ontobras/en/17th-seminar-on-ontology-research-in-brazil-ontobras-2024/)
 * **Week 8**
-  - MMilitary Intelligence Part 2
-  - Design Patterns: Practice, Practice, Practice
+  - Military Intelligence Part 2
 * **Week 9**
   - [STIDS 2024](https://kadsci.com/stids2024/)
 * **Week 10**
