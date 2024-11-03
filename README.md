@@ -23,14 +23,14 @@
 * **Week 7**
   - [ONTOBRAS](https://www.inf.ufrgs.br/ontobras/en/17th-seminar-on-ontology-research-in-brazil-ontobras-2024/)
 * **Week 8**
-  - Military Intelligence Part 2
+  - Fall Break
 * **Week 9**
   - [STIDS 2024](https://kadsci.com/stids2024/)
 * **Week 10**
-  - Cybersecurity Ontologies
+  - Military Intelligence Part 2
   - Design Patterns: Practice, Practice, Practice
 * **Week 11**
-  - Semantic Stack Vulnerabilities
+  - Cybersecurity Domain
   - Design Patterns: Practice, Practice, Practice
 * **Week 12**
   - Terror as the Order of the Day
