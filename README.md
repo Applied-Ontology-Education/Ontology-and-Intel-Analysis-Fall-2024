@@ -23,7 +23,7 @@
 * **Week 7**
   - [ONTOBRAS](https://www.inf.ufrgs.br/ontobras/en/17th-seminar-on-ontology-research-in-brazil-ontobras-2024/)
 * **Week 8**
-  - Fall Break
+  - Fall Break (NO CLASS)
 * **Week 9**
   - [STIDS 2024](https://kadsci.com/stids2024/)
 * **Week 10**
