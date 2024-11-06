@@ -27,7 +27,7 @@
 * **Week 9**
   - [STIDS 2024](https://kadsci.com/stids2024/)
 * **Week 10**
-  - Military Intelligence Part 2
+  - [Military Intelligence Part 2](https://www.youtube.com/watch?v=tm2iqKDbUm4)
   - Design Patterns: Practice, Practice, Practice
 * **Week 11**
   - Cybersecurity Domain
