@@ -29,11 +29,11 @@
   - [Military Intelligence Part 2](https://www.youtube.com/watch?v=tm2iqKDbUm4)
   - [Design Patterns: Practice, Practice, Practice](https://www.youtube.com/watch?v=l1erOrzJYK0)
 * **Week 11**
-  - Cybersecurity Domain
+  - [Cybersecurity Domain](https://www.youtube.com/watch?v=hzKa64rfiBk)
   - Design Patterns: Practice, Practice, Practice
 * **Week 12**
-  - Terror as the Order of the Day
-  - Design Patterns: Practice, Practice, Practice
+  - [Terror as the Order of the Day](https://www.youtube.com/watch?v=LzQMP-r7ha0)
+  - [Design Patterns: Practice, Practice, Practice](https://www.youtube.com/watch?v=HezLxRoHa14)
 * **Week 13**
   - Ontology of Secrets
   - Design Patterns: Practice, Practice, Practice
