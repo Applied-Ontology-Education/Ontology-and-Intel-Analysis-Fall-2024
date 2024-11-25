@@ -35,7 +35,7 @@
   - [Terror as the Order of the Day](https://www.youtube.com/watch?v=LzQMP-r7ha0)
   - [Design Patterns: Practice, Practice, Practice](https://www.youtube.com/watch?v=HezLxRoHa14)
 * **Week 13**
-  - Ontology of Secrets
+  - [Ontology of Secrets](https://www.youtube.com/watch?v=HmcLwpchd9g)
   - Design Patterns: Practice, Practice, Practice
 * **Week 14**
   - Thanksgiving
