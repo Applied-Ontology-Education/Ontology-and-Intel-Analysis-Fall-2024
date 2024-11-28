@@ -30,13 +30,12 @@
   - [Design Patterns: Practice, Practice, Practice](https://www.youtube.com/watch?v=l1erOrzJYK0)
 * **Week 11**
   - [Cybersecurity Domain](https://www.youtube.com/watch?v=hzKa64rfiBk)
-  - Design Patterns: Practice, Practice, Practice
 * **Week 12**
   - [Terror as the Order of the Day](https://www.youtube.com/watch?v=LzQMP-r7ha0)
   - [Design Patterns: Practice, Practice, Practice](https://www.youtube.com/watch?v=HezLxRoHa14)
 * **Week 13**
   - [Ontology of Secrets](https://www.youtube.com/watch?v=HmcLwpchd9g)
-  - Design Patterns: Practice, Practice, Practice
+  - [Design Patterns: Practice, Practice, Practice](https://www.youtube.com/watch?v=O3SZwii1Cd4)
 * **Week 14**
   - Thanksgiving
 * **Week 15**
