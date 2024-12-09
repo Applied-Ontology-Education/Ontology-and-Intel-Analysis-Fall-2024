@@ -21,22 +21,98 @@
 #    Classes
 #################################################################
 
-###  https://www.buffalo.edu/ontologies/2024/04/analytics/ANZO_SYS000019
-<https://www.buffalo.edu/ontologies/2024/04/analytics/ANZO_SYS000019> rdf:type owl:Class ;
-                                                                      rdfs:subClassOf <http://www.ontologyrepository.com/CommonCoreOntologies/ActOfIntelligenceGathering> ;
-                                                                      rdfs:label "Act of SIGINT Collection"@en .
+###  http://purl.obolibrary.org/obo/BFO_0000016
+<http://purl.obolibrary.org/obo/BFO_0000016> owl:equivalentClass <http://purl.obolibrary.org/obo/BFO_0000017> .
 
 
-###  https://www.buffalo.edu/ontologies/2024/04/analytics/ANZO_SYS000020
-<https://www.buffalo.edu/ontologies/2024/04/analytics/ANZO_SYS000020> rdf:type owl:Class ;
-                                                                      rdfs:subClassOf <http://www.ontologyrepository.com/CommonCoreOntologies/ActOfIntelligenceGathering> ;
-                                                                      rdfs:label "Act of IMINT Collection"@en .
+###  https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000001
+<https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000001> rdf:type owl:Class .
+
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000057
+<https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000057> rdf:type owl:Class .
+
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/Act_Of_Fixing_SYS000003
+<https://www.blackcape.io/ontologies/2024/04/analytics/Act_Of_Fixing_SYS000003> rdf:type owl:Class ;
+                                                                                rdfs:subClassOf <http://www.ontologyrepository.com/CommonCoreOntologies/IntentionalAct> ;
+                                                                                rdfs:label "Act of Object Fixing"@en .
+
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/Act_Of_Targeting_YS000005
+<https://www.blackcape.io/ontologies/2024/04/analytics/Act_Of_Targeting_YS000005> rdf:type owl:Class ;
+                                                                                  rdfs:subClassOf <http://www.ontologyrepository.com/CommonCoreOntologies/IntentionalAct> ;
+                                                                                  rdfs:label "Act of Object Targeting"@en .
+
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/Act_of_Assessment
+<https://www.blackcape.io/ontologies/2024/04/analytics/Act_of_Assessment> rdf:type owl:Class ;
+                                                                          rdfs:subClassOf <http://www.ontologyrepository.com/CommonCoreOntologies/IntentionalAct> ;
+                                                                          rdfs:label "Act of Object Assessment"@en .
+
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/Act_of_Engagement
+<https://www.blackcape.io/ontologies/2024/04/analytics/Act_of_Engagement> rdf:type owl:Class ;
+                                                                          rdfs:subClassOf <http://www.ontologyrepository.com/CommonCoreOntologies/IntentionalAct> ;
+                                                                          rdfs:label "Act of Target Engagement"@en .
+
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/Act_of_Obj_Identification
+<https://www.blackcape.io/ontologies/2024/04/analytics/Act_of_Obj_Identification> rdf:type owl:Class ;
+                                                                                  rdfs:subClassOf <http://www.ontologyrepository.com/CommonCoreOntologies/IntentionalAct> ;
+                                                                                  rdfs:label "Act of Object Identification"@en .
+
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/Act_of_Object_Finding
+<https://www.blackcape.io/ontologies/2024/04/analytics/Act_of_Object_Finding> rdf:type owl:Class ;
+                                                                              rdfs:subClassOf <http://www.ontologyrepository.com/CommonCoreOntologies/IntentionalAct> ;
+                                                                              rdfs:label "Act of Object Finding"@en .
+
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/Act_of_ReIdentification
+<https://www.blackcape.io/ontologies/2024/04/analytics/Act_of_ReIdentification> rdf:type owl:Class ;
+                                                                                rdfs:subClassOf <http://www.ontologyrepository.com/CommonCoreOntologies/IntentionalAct> ;
+                                                                                rdfs:label "Act of Object Re-Identification"@en .
+
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/Act_of_Tracking_000004
+<https://www.blackcape.io/ontologies/2024/04/analytics/Act_of_Tracking_000004> rdf:type owl:Class ;
+                                                                               rdfs:subClassOf <http://www.ontologyrepository.com/CommonCoreOntologies/IntentionalAct> ;
+                                                                               rdfs:label "Act of Object Tracking"@en .
+
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/Flight_Plan_S000000
+<https://www.blackcape.io/ontologies/2024/04/analytics/Flight_Plan_S000000> rdf:type owl:Class ;
+                                                                            rdfs:subClassOf <http://www.ontologyrepository.com/CommonCoreOntologies/PlanSpecification> ,
+                                                                                            [ owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                                                                                                                     owl:onProperty <http://www.ontologyrepository.com/CommonCoreOntologies/is_about> ;
+                                                                                                                     owl:someValuesFrom <http://www.ontologyrepository.com/CommonCoreOntologies/Aircraft>
+                                                                                                                   ]
+                                                                                                                   [ rdf:type owl:Restriction ;
+                                                                                                                     owl:onProperty <http://www.ontologyrepository.com/CommonCoreOntologies/prescribes> ;
+                                                                                                                     owl:someValuesFrom <http://www.ontologyrepository.com/CommonCoreOntologies/ActOfTravel>
+                                                                                                                   ]
+                                                                                                                 ) ;
+                                                                                              rdf:type owl:Class
+                                                                                            ] ;
+                                                                            rdfs:label "Flight Plan"@en .
+
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/Information_Releasability_Disposition
+<https://www.blackcape.io/ontologies/2024/04/analytics/Information_Releasability_Disposition> rdf:type owl:Class ;
+                                                                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000016> ;
+                                                                                              rdfs:comment "Information releasability disposition may change over time, thereby changing the information to which it pertains." ;
+                                                                                              rdfs:label "Information Realeasability Disposition"@en .
+
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/Intelligence_Producing_Organization
+<https://www.blackcape.io/ontologies/2024/04/analytics/Intelligence_Producing_Organization> rdf:type owl:Class ;
+                                                                                            rdfs:subClassOf <http://www.ontologyrepository.com/CommonCoreOntologies/Organization> ;
+                                                                                            rdfs:label "Intelligence Producing Organization"@en .
 
 
 ###  https://www.buffalo.edu/ontologies/2024/04/analytics/ANZO_SYS000021
-<https://www.buffalo.edu/ontologies/2024/04/analytics/ANZO_SYS000021> rdf:type owl:Class ;
-                                                                      rdfs:subClassOf <http://www.ontologyrepository.com/CommonCoreOntologies/IntentionalAct> ;
-                                                                      rdfs:label "Act of Information Dissemination"@en .
+<https://www.buffalo.edu/ontologies/2024/04/analytics/ANZO_SYS000021> rdf:type owl:Class .
 
 
 ###  https://www.buffalo.edu/ontologies/2024/04/analytics/ANZO_SYS000022
@@ -52,12 +128,6 @@
                                                                       rdfs:label "Increase of Substantially Relevant Information"@en .
 
 
-###  https://www.buffalo.edu/ontologies/2024/04/analytics/ANZO_SYS000024
-<https://www.buffalo.edu/ontologies/2024/04/analytics/ANZO_SYS000024> rdf:type owl:Class ;
-                                                                      rdfs:subClassOf <http://www.ontologyrepository.com/CommonCoreOntologies/GainOfGenericallyDependentContinuant> ;
-                                                                      rdfs:label "Gain of Crtical Information"@en .
-
-
 ###  https://www.buffalo.edu/ontologies/2024/04/analytics/ANZO_SYS000025
 <https://www.buffalo.edu/ontologies/2024/04/analytics/ANZO_SYS000025> rdf:type owl:Class ;
                                                                       rdfs:subClassOf <http://www.ontologyrepository.com/CommonCoreOntologies/IntentionalAct> ;
@@ -65,18 +135,7 @@
 
 
 ###  https://www.buffalo.edu/ontologies/2024/04/analytics/ANZO_SYS000026
-<https://www.buffalo.edu/ontologies/2024/04/analytics/ANZO_SYS000026> rdf:type owl:Class ;
-                                                                      rdfs:subClassOf <http://www.ontologyrepository.com/CommonCoreOntologies/DirectiveInformationContentEntity> ,
-                                                                                      [ rdf:type owl:Restriction ;
-                                                                                        owl:onProperty <http://www.ontologyrepository.com/CommonCoreOntologies/is_about> ;
-                                                                                        owl:someValuesFrom <https://www.buffalo.edu/ontologies/2024/04/analytics/ANZO_SYS000050>
-                                                                                      ] ,
-                                                                                      [ rdf:type owl:Restriction ;
-                                                                                        owl:onProperty <http://www.ontologyrepository.com/CommonCoreOntologies/prescribes> ;
-                                                                                        owl:someValuesFrom <https://www.buffalo.edu/ontologies/2024/04/analytics/ANZO_SYS000021>
-                                                                                      ] ;
-                                                                      rdfs:isDefinedBy "https://www.odni.gov/files/documents/ICD/ICD-710.pdf"@en ;
-                                                                      rdfs:label "Access Control Marking"@en .
+<https://www.buffalo.edu/ontologies/2024/04/analytics/ANZO_SYS000026> rdf:type owl:Class .
 
 
 ###  https://www.buffalo.edu/ontologies/2024/04/analytics/ANZO_SYS000027
@@ -95,7 +154,7 @@
                                                                                                                  ]
                                                                                                                  [ rdf:type owl:Restriction ;
                                                                                                                    owl:onProperty <http://purl.obolibrary.org/obo/RO_0000087> ;
-                                                                                                                   owl:someValuesFrom <https://www.buffalo.edu/ontologies/2024/04/analytics/ANZO_SYS000028>
+                                                                                                                   owl:someValuesFrom <https://www.buffalo.edu/ontologies/2024/04/analytics/SeniorIntelligenceAnalystRole>
                                                                                                                  ]
                                                                                                                  [ rdf:type owl:Restriction ;
                                                                                                                    owl:onProperty <http://www.ontologyrepository.com/CommonCoreOntologies/agent_in> ;
@@ -105,20 +164,7 @@
                                                                                             rdf:type owl:Class
                                                                                           ] ;
                                                                       rdfs:subClassOf <http://www.ontologyrepository.com/CommonCoreOntologies/Agent> ;
-                                                                      rdfs:label "Intelligence Analyst Agent"@en .
-
-
-###  https://www.buffalo.edu/ontologies/2024/04/analytics/ANZO_SYS000028
-<https://www.buffalo.edu/ontologies/2024/04/analytics/ANZO_SYS000028> rdf:type owl:Class ;
-                                                                      rdfs:subClassOf [ owl:intersectionOf ( <http://purl.obolibrary.org/obo/BFO_0000023>
-                                                                                                             [ rdf:type owl:Restriction ;
-                                                                                                               owl:onProperty <http://purl.obolibrary.org/obo/BFO_0000055> ;
-                                                                                                               owl:someValuesFrom <https://www.buffalo.edu/ontologies/2024/04/analytics/ANZO_SYS000051>
-                                                                                                             ]
-                                                                                                           ) ;
-                                                                                        rdf:type owl:Class
-                                                                                      ] ;
-                                                                      rdfs:label "Analysis Role"@en .
+                                                                      rdfs:label "Intelligence Officer"@en .
 
 
 ###  https://www.buffalo.edu/ontologies/2024/04/analytics/ANZO_SYS000029
@@ -331,15 +377,180 @@
 
 ###  https://www.buffalo.edu/ontologies/2024/04/analytics/ANZO_SYS000056
 <https://www.buffalo.edu/ontologies/2024/04/analytics/ANZO_SYS000056> rdf:type owl:Class ;
-                                                                      rdfs:subClassOf [ owl:intersectionOf ( <https://www.buffalo.edu/ontologies/2024/04/analytics/ANZO_SYS000050>
-                                                                                                             [ rdf:type owl:Restriction ;
-                                                                                                               owl:onProperty <http://www.ontologyrepository.com/CommonCoreOntologies/describes> ;
-                                                                                                               owl:someValuesFrom <https://www.buffalo.edu/ontologies/2024/04/analytics/ANZO_SYS000038>
-                                                                                                             ]
-                                                                                                           ) ;
-                                                                                        rdf:type owl:Class
+                                                                      rdfs:subClassOf [ rdf:type owl:Class ;
+                                                                                        owl:unionOf ( [ owl:intersectionOf ( <https://www.buffalo.edu/ontologies/2024/04/analytics/ANZO_SYS000050>
+                                                                                                                             [ rdf:type owl:Restriction ;
+                                                                                                                               owl:onProperty <http://www.ontologyrepository.com/CommonCoreOntologies/describes> ;
+                                                                                                                               owl:someValuesFrom <https://www.buffalo.edu/ontologies/2024/04/analytics/ANZO_SYS000038>
+                                                                                                                             ]
+                                                                                                                           ) ;
+                                                                                                        rdf:type owl:Class
+                                                                                                      ]
+                                                                                                      [ rdf:type owl:Restriction ;
+                                                                                                        owl:onProperty <http://www.ontologyrepository.com/CommonCoreOntologies/is_a_measurement_of> ;
+                                                                                                        owl:someValuesFrom <https://www.buffalo.edu/ontologies/2024/04/analytics/ANZO_SYS000038>
+                                                                                                      ]
+                                                                                                    )
                                                                                       ] ;
                                                                       rdfs:label "Threat Assessment"@en .
+
+
+###  https://www.buffalo.edu/ontologies/2024/04/analytics/Access_Control_Marking_0926
+<https://www.buffalo.edu/ontologies/2024/04/analytics/Access_Control_Marking_0926> rdf:type owl:Class ;
+                                                                                   rdfs:subClassOf <http://www.ontologyrepository.com/CommonCoreOntologies/DirectiveInformationContentEntity> ,
+                                                                                                   [ rdf:type owl:Restriction ;
+                                                                                                     owl:onProperty <http://www.ontologyrepository.com/CommonCoreOntologies/is_about> ;
+                                                                                                     owl:someValuesFrom <https://www.buffalo.edu/ontologies/2024/04/analytics/ANZO_SYS000050>
+                                                                                                   ] ,
+                                                                                                   [ rdf:type owl:Restriction ;
+                                                                                                     owl:onProperty <http://www.ontologyrepository.com/CommonCoreOntologies/prescribes> ;
+                                                                                                     owl:someValuesFrom <https://www.buffalo.edu/ontologies/2024/04/analytics/ANZO_SYS000021>
+                                                                                                   ] ;
+                                                                                   rdfs:isDefinedBy "https://www.odni.gov/files/documents/ICD/ICD-710.pdf"@en ;
+                                                                                   rdfs:label "Access Control Marking"@en .
+
+
+###  https://www.buffalo.edu/ontologies/2024/04/analytics/Act_of_IMINT_Collect
+<https://www.buffalo.edu/ontologies/2024/04/analytics/Act_of_IMINT_Collect> rdf:type owl:Class ;
+                                                                            rdfs:subClassOf <http://www.ontologyrepository.com/CommonCoreOntologies/ActOfIntelligenceGathering> ;
+                                                                            rdfs:label "Act of IMINT Collection"@en .
+
+
+###  https://www.buffalo.edu/ontologies/2024/04/analytics/Act_of_Information_Dissemination
+<https://www.buffalo.edu/ontologies/2024/04/analytics/Act_of_Information_Dissemination> rdf:type owl:Class ;
+                                                                                        rdfs:subClassOf <http://www.ontologyrepository.com/CommonCoreOntologies/IntentionalAct> ;
+                                                                                        rdfs:label "Act of Information Dissemination"@en .
+
+
+###  https://www.buffalo.edu/ontologies/2024/04/analytics/Act_of_SIGINT_Collection
+<https://www.buffalo.edu/ontologies/2024/04/analytics/Act_of_SIGINT_Collection> rdf:type owl:Class ;
+                                                                                rdfs:subClassOf <http://www.ontologyrepository.com/CommonCoreOntologies/ActOfIntelligenceGathering> ;
+                                                                                rdfs:label "Act of SIGINT Collection"@en .
+
+
+###  https://www.buffalo.edu/ontologies/2024/04/analytics/Gain_of_Crtical_Information
+<https://www.buffalo.edu/ontologies/2024/04/analytics/Gain_of_Crtical_Information> rdf:type owl:Class ;
+                                                                                   rdfs:subClassOf <http://www.ontologyrepository.com/CommonCoreOntologies/GainOfGenericallyDependentContinuant> ;
+                                                                                   rdfs:label "Gain of Crtical Information"@en .
+
+
+###  https://www.buffalo.edu/ontologies/2024/04/analytics/SeniorIntelligenceAnalystRole
+<https://www.buffalo.edu/ontologies/2024/04/analytics/SeniorIntelligenceAnalystRole> rdf:type owl:Class ;
+                                                                                     rdfs:subClassOf [ owl:intersectionOf ( <http://purl.obolibrary.org/obo/BFO_0000023>
+                                                                                                                            [ rdf:type owl:Restriction ;
+                                                                                                                              owl:onProperty <http://purl.obolibrary.org/obo/BFO_0000055> ;
+                                                                                                                              owl:someValuesFrom <https://www.buffalo.edu/ontologies/2024/04/analytics/ANZO_SYS000051>
+                                                                                                                            ]
+                                                                                                                            [ rdf:type owl:Restriction ;
+                                                                                                                              owl:onProperty <http://www.ontologyrepository.com/CommonCoreOntologies/has_organizational_context> ;
+                                                                                                                              owl:someValuesFrom <https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000001>
+                                                                                                                            ]
+                                                                                                                          ) ;
+                                                                                                       rdf:type owl:Class
+                                                                                                     ] ;
+                                                                                     rdfs:label "Intelligence Analyst Role"@en .
+
+
+###  https://www.buffalo.edu/student-ontologies/2024/04/analytics/Intelligence_Analysis_Capability
+<https://www.buffalo.edu/student-ontologies/2024/04/analytics/Intelligence_Analysis_Capability> rdf:type owl:Class ;
+                                                                                                rdfs:subClassOf <http://www.ontologyrepository.com/CommonCoreOntologies/AgentCapability> .
+
+
+###  https://www.buffalo.edu/student-ontologies/2024/04/analytics/Intelligence_Analysis_Job_Series
+<https://www.buffalo.edu/student-ontologies/2024/04/analytics/Intelligence_Analysis_Job_Series> rdf:type owl:Class ;
+                                                                                                rdfs:subClassOf <http://www.ontologyrepository.com/CommonCoreOntologies/DirectiveInformationContentEntity> .
+
+
+###  https://www.buffalo.edu/student-ontologies/2024/04/analytics/Intelligence_Consumer_Role
+<https://www.buffalo.edu/student-ontologies/2024/04/analytics/Intelligence_Consumer_Role> rdf:type owl:Class ;
+                                                                                          rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000023> .
+
+
+###  https://www.buffalo.edu/student-ontologies/2024/04/analytics/Kinetic_Operations_Role
+<https://www.buffalo.edu/student-ontologies/2024/04/analytics/Kinetic_Operations_Role> rdf:type owl:Class ;
+                                                                                       rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000023> .
+
+
+###  https://www.buffalo.edu/student-ontologies/2024/04/analytics/Professional_Dispositions
+<https://www.buffalo.edu/student-ontologies/2024/04/analytics/Professional_Dispositions> rdf:type owl:Class ;
+                                                                                         owl:equivalentClass <https://www.buffalo.edu/student-ontologies/2024/04/analytics/Professional_Humility> ;
+                                                                                         rdfs:subClassOf <http://www.ontologyrepository.com/CommonCoreOntologies/AgentCapability> .
+
+
+###  https://www.buffalo.edu/student-ontologies/2024/04/analytics/Professional_Humility
+<https://www.buffalo.edu/student-ontologies/2024/04/analytics/Professional_Humility> rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  https://www.buffalo.edu/student-ontologies/2024/04/analytics/Analysis_of_Competing_Hypotheses
+<https://www.buffalo.edu/student-ontologies/2024/04/analytics/Analysis_of_Competing_Hypotheses> rdf:type owl:NamedIndividual ,
+                                                                                                         <https://www.buffalo.edu/student-ontologies/2024/04/analytics/Intelligence_Analysis_Capability> ;
+                                                                                                <http://www.ontologyrepository.com/CommonCoreOntologies/capability_of> <https://www.buffalo.edu/student-ontologies/2024/04/analytics/JJ> .
+
+
+###  https://www.buffalo.edu/student-ontologies/2024/04/analytics/Disseminate_AAPCU_Report
+<https://www.buffalo.edu/student-ontologies/2024/04/analytics/Disseminate_AAPCU_Report> rdf:type owl:NamedIndividual ,
+                                                                                                 <https://www.buffalo.edu/ontologies/2024/04/analytics/ANZO_SYS000021> .
+
+
+###  https://www.buffalo.edu/student-ontologies/2024/04/analytics/Forecast_of_Aruba_Civil_Unrest
+<https://www.buffalo.edu/student-ontologies/2024/04/analytics/Forecast_of_Aruba_Civil_Unrest> rdf:type owl:NamedIndividual ,
+                                                                                                       <https://www.buffalo.edu/ontologies/2024/04/analytics/ANZO_SYS000051> .
+
+
+###  https://www.buffalo.edu/student-ontologies/2024/04/analytics/GS-0132-13_Role
+<https://www.buffalo.edu/student-ontologies/2024/04/analytics/GS-0132-13_Role> rdf:type owl:NamedIndividual ,
+                                                                                        <https://www.buffalo.edu/ontologies/2024/04/analytics/SeniorIntelligenceAnalystRole> ;
+                                                                               <http://www.ontologyrepository.com/CommonCoreOntologies/has_organizational_context> <https://www.buffalo.edu/student-ontologies/2024/04/analytics/My_Intel_Agency> ;
+                                                                               <http://www.ontologyrepository.com/CommonCoreOntologies/prescribed_by> <https://www.buffalo.edu/student-ontologies/2024/04/analytics/0132_Job_Series> .
+
+
+###  https://www.buffalo.edu/student-ontologies/2024/04/analytics/JJ
+<https://www.buffalo.edu/student-ontologies/2024/04/analytics/JJ> rdf:type owl:NamedIndividual ,
+                                                                           <http://www.ontologyrepository.com/CommonCoreOntologies/Person> ;
+                                                                  <http://www.ontologyrepository.com/CommonCoreOntologies/has_capability> <https://www.buffalo.edu/student-ontologies/2024/04/analytics/Analysis_of_Competing_Hypotheses> .
+
+
+###  https://www.buffalo.edu/student-ontologies/2024/04/analytics/John_Paul_Jones
+<https://www.buffalo.edu/student-ontologies/2024/04/analytics/John_Paul_Jones> rdf:type owl:NamedIndividual ,
+                                                                                        <http://www.ontologyrepository.com/CommonCoreOntologies/ProperName> ;
+                                                                               <http://www.ontologyrepository.com/CommonCoreOntologies/designates> <https://www.buffalo.edu/student-ontologies/2024/04/analytics/JJ> ;
+                                                                               <http://www.ontologyrepository.com/CommonCoreOntologies/has_text_value> "John Paul Jones" .
+
+
+###  https://www.buffalo.edu/student-ontologies/2024/04/analytics/Military_Commander_Intel_Consumer
+<https://www.buffalo.edu/student-ontologies/2024/04/analytics/Military_Commander_Intel_Consumer> rdf:type owl:NamedIndividual ,
+                                                                                                          <https://www.buffalo.edu/ontologies/2024/04/analytics/ANZO_SYS000036> .
+
+
+###  https://www.buffalo.edu/student-ontologies/2024/04/analytics/My_Intel_Agency
+<https://www.buffalo.edu/student-ontologies/2024/04/analytics/My_Intel_Agency> rdf:type owl:NamedIndividual ,
+                                                                                        <https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000001> .
+
+
+###  https://www.buffalo.edu/student-ontologies/2024/04/analytics/consumer_access_disposition
+<https://www.buffalo.edu/student-ontologies/2024/04/analytics/consumer_access_disposition> rdf:type owl:NamedIndividual ,
+                                                                                                    <https://www.buffalo.edu/ontologies/2024/04/analytics/ANZO_SYS000035> ;
+                                                                                           <http://www.ontologyrepository.com/CommonCoreOntologies/disposition_of_aggregate> <https://www.buffalo.edu/student-ontologies/2024/04/analytics/Military_Commander_Intel_Consumer> .
+
+
+###  https://www.buffalo.edu/student-ontologies/2024/04/analytics/releasability_of_AAPCU_Report
+<https://www.buffalo.edu/student-ontologies/2024/04/analytics/releasability_of_AAPCU_Report> rdf:type owl:NamedIndividual ,
+                                                                                                      <https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000057> .
+
+
+###  https://www.buffalo.edu/student-ontologies/2024/04/analytics/unclassified
+<https://www.buffalo.edu/student-ontologies/2024/04/analytics/unclassified> rdf:type owl:NamedIndividual ,
+                                                                                     <https://www.buffalo.edu/ontologies/2024/04/analytics/ANZO_SYS000026> ;
+                                                                            rdfs:comment "compromise of this information has no impact on national security" .
+
+
+###  https://www.buffalo.edu/student-ontologies/2024/04/analytics/0132_Job_Series
+<https://www.buffalo.edu/student-ontologies/2024/04/analytics/0132_Job_Series> rdf:type owl:NamedIndividual ,
+                                                                                        <https://www.buffalo.edu/student-ontologies/2024/04/analytics/Intelligence_Analysis_Job_Series> .
 
 
 #################################################################
@@ -357,4 +568,4 @@
 ] .
 
 
-###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
+###  Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi
